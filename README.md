@@ -150,5 +150,5 @@ plt.show()
 ![ex8 15](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/b588000c-9005-46a3-b856-c45938bb87f7)
 ![ex8 16](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/1f0f023d-7d19-449e-aeb6-1f6a6a402146)
 ![ex8 17](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/ccf782b2-7fd4-4efb-b8f1-caac692d6fce)
-Result
-
+Result:
+Thus, Data Visualization is performed on the given dataset and save the data to a file.
