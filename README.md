@@ -19,6 +19,7 @@ Apply data visualization techniques to identify the patterns of the data.
 
 # CODE
 ```
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -139,7 +140,7 @@ plt.ylabel('Value')
 plt.legend(title='Region')
 plt.show()
 ```
-
+```
 # OUPUT
 
 ![ex8 1](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/e9cdbdfe-bbbc-40af-903d-cf0e37e54234)
