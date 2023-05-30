@@ -18,7 +18,7 @@ Apply data visualization techniques to identify the patterns of the data.
 
 
 # CODE
-
+```
 
 import pandas as pd
 import numpy as np
@@ -129,7 +129,7 @@ plt.xlabel('Segment - Ship Mode')
 plt.ylabel('Value')
 plt.legend(title='Region')
 plt.show()
-
+```
 
 
 # OUPUT
