@@ -135,20 +135,37 @@ plt.show()
 # OUPUT
 
 ![ex8 1](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/e9cdbdfe-bbbc-40af-903d-cf0e37e54234)
+
 ![ex8 2](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/8a79c0a5-41ed-4bf7-bf6c-4ff53ad46a33)
+
 ![ex8 3](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/0235ae31-4e67-4f8b-a42e-4cf40201baba)
+
 ![ex8 4](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/d52ac472-9abe-48f0-b07e-b1c227c5a52c)
+
 ![ex8 5](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/6f1ca42c-e640-44e3-bd38-a10ab1f7daa6)
+
 ![ex8 6](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/a9918cfa-2519-43d2-9855-caf6b55cd4a6)
+
 ![ex8 7](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/b9013e03-2bab-4ec3-8ea7-0433ca957315)
+
 ![ex8 9](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/f4bc39bb-7d25-4a50-996c-de977de7cf33)
+
 ![ex8 10](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/a341abb9-f9e8-4418-8e42-a16e83709a00)
+
 ![ex8 11](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/d3f0cd13-9a5d-4e19-a319-8a067affb296)
+
 ![ex8 12](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/5890478b-fe32-44a9-bb85-a1e0fea11e72)
+
 ![ex8 13](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/a8c1be60-9819-4ed8-9950-7bd4741c7735)
+
 ![ex8 14](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/f14df965-aa86-478a-ad8b-bedb38b4d0c4)
+
 ![ex8 15](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/b588000c-9005-46a3-b856-c45938bb87f7)
+
 ![ex8 16](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/1f0f023d-7d19-449e-aeb6-1f6a6a402146)
+
 ![ex8 17](https://github.com/Bala1511/Ex-08-Data-Visualization-/assets/118680410/ccf782b2-7fd4-4efb-b8f1-caac692d6fce)
+```
 Result:
 Thus, Data Visualization is performed on the given dataset and save the data to a file.
+```
