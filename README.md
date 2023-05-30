@@ -19,21 +19,18 @@ Apply data visualization techniques to identify the patterns of the data.
 
 # CODE
 ```
-```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 df=pd.read_csv("/content/Superstore (1).csv",encoding="ISO-8859-1")
 df
-```
-```
+
 df.isnull()
 
 
 df.describe()
-```
-```
+
 sns.lineplot(x="Segment",y="Sales",data=df,marker='o')
 plt.title("Segment vs Sales")
 plt.xticks(rotation = 90)
@@ -42,13 +39,12 @@ plt.show()
 sns.barplot(x="Segment",y="Sales",data=df)
 plt.xticks(rotation = 90)
 plt.show()
-```
-```
+
+
 df.shape
 df1 = df[(df.Profit >= 60)]
 df1.shape
-```
-```
+
 plt.figure(figsize=(90,70))
 states=df1.loc[:,["City","Profit"]]
 states=states.groupby(by=["City"]).sum().sort_values(by="Profit")
@@ -57,15 +53,13 @@ plt.xticks(rotation = 90)
 plt.xlabel=("City")
 plt.ylabel=("Profit")
 plt.show()
-```
-```
+
 sns.barplot(x="Ship Mode",y="Profit",data=df)
 plt.show()
 
 sns.lineplot(x="Ship Mode",y="Profit",data=df)
 plt.show()
-```
-```
+
 states=df.loc[:,["Region","Sales"]]
 states=states.groupby(by=["Region"]).sum().sort_values(by="Sales")
 sns.barplot(x=states.index,y="Sales",data=states)
@@ -73,7 +67,7 @@ plt.xticks(rotation = 90)
 plt.xlabel=("Region")
 plt.ylabel=("Sales")
 plt.show()
-```
+
 df.groupby(['Region']).sum().plot(kind='pie', y='Sales',figsize=(6,9),pctdistance=1.7,labeldistance=1.2)
 
 df["Sales"].corr(df["Postal Code"])
@@ -84,8 +78,7 @@ df_corr.corr()
 
 sns.pairplot(df_corr, kind="scatter")
 plt.show()
-```
-```
+
 grouped_data = df.groupby('Segment')[['Sales', 'Profit']].mean()
 # Create a bar chart of the grouped data
 fig, ax = plt.subplots()
@@ -95,8 +88,7 @@ ax.set_xlabel('Segment')
 ax.set_ylabel('Value')
 ax.legend()
 plt.show()
-```
-```
+
 grouped_data = df.groupby('City')[['Sales', 'Profit']].mean()
 # Create a bar chart of the grouped data
 fig, ax = plt.subplots()
@@ -106,8 +98,7 @@ ax.set_xlabel('City')
 ax.set_ylabel('Value')
 ax.legend()
 plt.show()
-```
-```
+
 grouped_data = df.groupby('State')[['Sales', 'Profit']].mean()
 # Create a bar chart of the grouped data
 fig, ax = plt.subplots()
@@ -117,8 +108,7 @@ ax.set_xlabel('State')
 ax.set_ylabel('Value')
 ax.legend()
 plt.show()
-```
-```
+
 grouped_data = df.groupby(['Segment', 'Ship Mode'])[['Sales', 'Profit']].mean()
 pivot_data = grouped_data.reset_index().pivot(index='Segment', columns='Ship Mode', values=['Sales', 'Profit'])
 # Create a bar chart of the grouped data
@@ -128,8 +118,7 @@ ax.set_xlabel('Segment')
 ax.set_ylabel('Value')
 plt.legend(title='Ship Mode')
 plt.show()
-```
-```
+
 grouped_data = df.groupby(['Segment', 'Ship Mode','Region'])[['Sales', 'Profit']].mean()
 pivot_data = grouped_data.reset_index().pivot(index=['Segment', 'Ship Mode'], columns='Region', values=['Sales', 'Profit'])
 sns.set_style("whitegrid")
@@ -139,7 +128,6 @@ plt.xlabel('Segment - Ship Mode')
 plt.ylabel('Value')
 plt.legend(title='Region')
 plt.show()
-```
 ```
 # OUPUT
 
